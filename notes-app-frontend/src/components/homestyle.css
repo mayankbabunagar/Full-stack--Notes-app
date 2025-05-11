@@ -1,0 +1,69 @@
+
+body{
+    background-image: url('../assets/pexels-daejeung-2734469.jpg');
+    background-size:cover;
+    background-repeat: repeat;
+    background-position: center;
+    background-attachment: fixed;
+    font-family: Arial, sans-serif;   
+    
+    
+    /* justify-content: center; */
+    /* align-items: center ; */
+    /* display: flex; */
+}
+.setting-size{
+    width: 100px;
+    height: auto;
+}
+.home-main{
+    height: 750px;
+    display: flex;
+}
+.home-main2{
+    display: flex;
+    
+}
+.first-half{
+    padding-top: 50px;
+    padding-left: 325px;
+}
+.sec-half{
+    padding-top: 250px;
+    padding-left: 25px;
+}
+#M{
+    transition: transform 0.9s ease;
+}
+#Y{
+    height: 180px;
+    width: auto;
+    transition: transform 0.9s ease;
+    
+}
+#N{
+    height: 210px;
+    width: auto;
+    transition: transform 0.9s ease;
+    
+}
+#O{
+    height: 200px;
+    width: auto;
+    transition: transform 0.9s ease;
+    
+}
+#T{
+    transition: transform 0.9s ease;
+}
+#E{
+    transition: transform 0.9s ease;
+}
+#S{
+    transition: transform 0.9s ease;
+}
+.setting-size:hover{
+    transform: scale(1.1);
+
+}
+

@@ -1,0 +1,59 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+  background: linear-gradient(#2E2E2E,#9B5DE5);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+.Nav-bar{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color:	#545c50;
+  padding: 1rem 2rem;
+  color: white;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+
+}
+.navbarlogo a { /* by putting a it applies on link and it doesn't change color*/
+  font-weight: bold;
+  font-size: 1.5rem;
+  color: aliceblue;
+  text-decoration: wavy;
+
+}
+.navbar-logo {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: white;
+  text-decoration: none;
+}
+.nav-links{
+  list-style: none;
+  display: flex;
+  gap: 6.5rem;
+  align-items: center;
+  margin: 0 auto; 
+  font-size: 1.3rem;
+}
+.nav-links li {
+  display: flex;
+  align-items: center;
+}
+.nav-links a,
+.nav-links button {
+  color: white;
+  text-decoration: none;
+  font-weight: 500;
+  background: none;
+  border: none;
+  cursor: pointer;
+  transition: color 0.3s ease;
+}
+.nav-links a:hover,
+.nav-links button:hover {
+  color: #00bfff;
+}

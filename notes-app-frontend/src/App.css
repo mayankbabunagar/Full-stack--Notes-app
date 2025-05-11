@@ -1,0 +1,184 @@
+body {
+    background-image: url('./assets/pexels-daejeung-2734469.jpg');
+    background-size:cover;
+    background-repeat: repeat;
+    background-position: center;
+    background-attachment: fixed;
+    font-family: Arial, sans-serif;
+    /* justify-content: center; */
+    /* align-items: center ; */
+    /* display: flex; */
+}
+.login-div{
+    justify-content: center;
+    align-items: center ; 
+    display: flex;
+    
+}
+.myform{
+  margin-top: 50px;
+        width: 300px;
+        height: 450px;
+      background: rgba(255, 255, 255, 0.1); /* semi-transparent */
+        border: 1px solid rgba(255, 255, 255, 0.2);
+        border-radius: 15px;
+      backdrop-filter: blur(4px); /* blurry background */
+      /* -webkit-backdrop-filter: blur(10px);  */
+        box-shadow: 0 4px 30px rgba(0, 0, 0, 0.2);
+        padding: 20px;
+        color: white;
+        font-size: 18px;
+        /* justify-content: center; */
+        display: flex;
+        justify-content: center;
+    
+    
+    
+}
+#loginwritten{
+  padding-left: 32px;
+}
+.customInput{
+  background: transparent;
+  height: 30px;
+  width: 225px;
+  border-radius: 10px ;
+  border: solid black 1px;
+  font-size: 15px;
+  color: aliceblue;
+}
+.submitCustom{
+  background-color: chocolate;
+  color: white;
+  border: 2px groove white;
+  border-radius: 10px;
+  height: 40px;
+  width: 120px;
+  font-size: 17px;
+  font-family:  'Arial Narrow', Arial, sans-serif;
+  margin-left: 49px;
+  margin-top: 40px;
+ 
+
+}
+.myregform{
+  margin-top: 50px;
+        width: 300px;
+        height: 450px;
+      background: rgba(255, 255, 255, 0.1); /* semi-transparent */
+        border: 1px solid rgba(255, 255, 255, 0.2);
+        border-radius: 15px;
+      backdrop-filter: blur(4px); /* blurry background */
+      /* -webkit-backdrop-filter: blur(10px);  */
+        box-shadow: 0 4px 30px rgba(0, 0, 0, 0.2);
+        padding: 20px;
+        color: white;
+        font-size: 18px;
+        /* justify-content: center; */
+        display: flex;
+        justify-content: center;
+    
+}
+#registerwritten{
+  padding-left: 72px;
+
+}
+#shownoteshead{
+  background-color: black;
+  color: rgb(164, 66, 5);
+  align-items: center;
+  justify-content: center;
+  font-size: 35px ;
+  text-align: center;
+
+}
+.content-para{
+ 
+  width: 400px;
+  height: auto;
+  font-size: medium;
+  color: #ffffff;
+
+
+}
+.our-content{
+  font-size: 2em;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  background-color: rgba(35, 33, 33, 0.5); 
+  width: 500px;
+  font-family: 'Arial', sans-serif; /* Font family */
+  font-size: 16px;               /* Font size */
+  color: #333;                   /* Text color */
+  margin-bottom: 10px;           /* Space between list items */
+  padding-left: 25px;            /* Add padding to left for custom bullets */
+  position: relative;  
+  border-radius: 10px;
+  justify-content:flex-end;
+  
+  
+}
+.align-shits{
+  width: auto;
+  height: auto;
+  
+}
+.shownotes-div{
+  width: 100%;
+  height: 100em;
+  
+}
+.addnotesdiv{
+  
+  backdrop-filter: blur(4px);
+  background-color: #f0f0f0;
+  width: 300px;
+  
+}
+.title-written{
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-size: 25px;
+  color: #008080;
+  
+
+}
+.delete_button_1{
+  margin-left: 431px;
+  border-radius: 3px;
+  font-size: 10px;
+  background-color: rgb(218, 77, 29);
+}
+.addingnotesheader{
+  font-family:'Times New Roman', Times, serif;
+  color: #008080;
+  font-size: 40px;
+}
+ol{
+  width: 500px;
+}
+.addthenotes{
+  margin-left: 600px;
+  margin-top: 20px;
+  position: absolute;
+  top :90px;
+  right: 38px;
+  
+}
+.addnotesdiv{
+  background-color: rgba(232, 112, 33, 0.4);
+  backdrop-filter: blur(4px);
+  border-radius: 10px;
+  height: auto;
+  font-size: 17px;
+  padding: 10px; 
+  
+}
+.textarea-content{
+  border-radius: 10px;
+}
+.addnote-title{
+  border-radius: 10px;
+}
+.add-button{
+  background-color: #9c3903;
+  border-radius: 10px   ;
+}
