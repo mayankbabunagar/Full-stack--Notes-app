@@ -6,7 +6,7 @@ function Registerform(){
     const navigate= useNavigate();
     function Registersubmit(event){
         event.preventDefault();
-        axios.post('http://localhost:5000/api/auth/register',{ name, email,password } ,{ withCredentials: true }
+        axios.post('https://full-stack-notes-app-r6uu.onrender.com/api/auth/register',{ name, email,password } ,{ withCredentials: true }
         ).then((response)=>{
             console.log('registered successfully',response.data);
             if(name&&email&&password){
