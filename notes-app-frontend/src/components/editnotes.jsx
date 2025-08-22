@@ -12,7 +12,7 @@ function EditNotes({noteid}){
         setContent(event.target.value);
     }
     async function handleSubmit(){
-        const response= await axios.put(`http://localhost:5000/api/notes/${noteid}`,{title,content}, {withCredentials:true});
+        const response= await axios.put(`https://full-stack-notes-app-r6uu.onrender.com/api/notes/${noteid}`,{title,content}, {withCredentials:true});
     }
 
 
