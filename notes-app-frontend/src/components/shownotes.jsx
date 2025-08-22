@@ -23,7 +23,7 @@ export function ShowNotes(){
 
     },[])
     async function handleDelete(id){
-        axios.delete(`http://localhost:5000/api/notes/${id}`,{withCredentials:true})
+        axios.delete(`https://full-stack-notes-app-r6uu.onrender.com/api/notes/${id}`,{withCredentials:true})
         setNotes((notes)=>{notes.filter(notes._id!=id)})
     }
 
