@@ -19,7 +19,7 @@ function AddNotes(){
 
         }
         try {
-            const response= await axios.post("http://localhost:5000/api/notes",{title,content}, {
+            const response= await axios.post("https://full-stack-notes-app-r6uu.onrender.com/api/notes",{title,content}, {
                 withCredentials: true
             })
             
